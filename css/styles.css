@@ -273,3 +273,28 @@ figure {
     display: inline-block;
   }
 }
+
+@media (min-width: 992px) {
+
+/*  Toggle movie poster display and hide movie image and movie overview  */
+
+  .movie-poster {
+    display: block;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie-overview {
+    display: none;
+  }
+
+/**/
+
+
+
+
+
+
+}
