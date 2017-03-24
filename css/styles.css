@@ -195,3 +195,35 @@ figure {
 .about > p {
   margin: 0;
 }
+
+/*   MQs   */
+
+@media (min-width: 768px) {
+
+/* Move site-nav from fixed at the bottom to fixed on the left */
+
+  body {
+    padding-left: 65px;
+  }
+
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 100%;
+  }
+
+  .site-nav-list {
+    margin: 60px 0 0 0;
+    padding: 0;
+  }
+
+  .site-nav-item {
+    float: left;
+    width: 100%;
+    height: 60px;
+    padding: 0.75em;
+  }
+
+}
