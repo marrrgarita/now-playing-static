@@ -290,7 +290,17 @@ figure {
     display: none;
   }
 
-/**/
+/*  Organize movies into a grid (3 in a row)*/
+
+article.movie {
+    float: left;
+    width:  33%;
+    height: 100%;
+}
+
+main {
+    overflow: auto;
+}
 
 
 
