@@ -203,7 +203,7 @@ figure {
 /* Move site-nav from fixed at the bottom to fixed on the left */
 
   body {
-    padding-left: 65px;
+    padding: 0 0 0 65px;
   }
 
   .site-nav {
@@ -238,7 +238,11 @@ figure {
   z-index: 101;
 }
 
+/*  Toggle movie-overview to be seen*/
 
+  .movie-overview {
+    display: block;
+  }
 
 
 }
