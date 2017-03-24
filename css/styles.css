@@ -292,14 +292,33 @@ figure {
 
 /*  Organize movies into a grid (3 in a row)*/
 
-article.movie {
+.movie {
     float: left;
-    width:  33%;
+    width:  33.33333%;
     height: 100%;
 }
 
 main {
     overflow: auto;
+}
+
+/*  change first movie to show full width with overview and movie-backdrop */
+
+.movie:first-child .movie-poster {
+  display: none;
+}
+
+.movie:first-child .movie-backdrop {
+  display: block;
+}
+
+.movie:first-child .movie-overview {
+  display: block;
+}
+
+.movie:first-child {
+  clear: both;
+  width: 99.99999%;
 }
 
 
