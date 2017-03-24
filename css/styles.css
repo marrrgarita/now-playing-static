@@ -244,5 +244,32 @@ figure {
     display: block;
   }
 
+/*  Merge two footers into one */
 
+  .site-footer {
+    overflow: auto;
+    height: 60px;
+  }
+  .footer-nav {
+    padding: 0;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    width: 50%;
+    background-color: black;
+  }
+
+  .about {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    background-color: black;
+    padding-right: 1rem;
+  }
+
+  .about > p {
+    display: inline-block;
+  }
 }
