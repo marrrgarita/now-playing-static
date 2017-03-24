@@ -226,4 +226,19 @@ figure {
     padding: 0.75em;
   }
 
+/*Move Bitmaker logo from fixed at top to fluent with navbar */
+
+.site-logo {
+  position: fixed;
+  left: 6px;
+  top: 2px;
+  width: 55px;
+  height: 55px;
+  margin: 0;
+  z-index: 101;
+}
+
+
+
+
 }
