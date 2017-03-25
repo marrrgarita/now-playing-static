@@ -321,9 +321,35 @@ main {
   width: 99.99999%;
 }
 
+/*li:nth-child(-n+5) {
+    color: green;
+}*/
 
 
+}
 
+@media (min-width: 1275px) {
 
+  /*  change first movie to show half width with overview and movie-backdrop */
+
+  .movie:first-child .movie-poster {
+    display: block;
+  }
+
+  .movie:first-child .movie-backdrop {
+    display: none;
+  }
+
+  .movie:nth-child(-n+2) .movie-overview {
+    display: block;
+  }
+
+  .movie:nth-child(-n+2) {
+    width: 50%;
+  }
+
+  /*li:nth-child(-n+5) {
+      color: green;
+  }*/
 
 }
